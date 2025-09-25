@@ -11,6 +11,16 @@ int main() {
     float sum;
 
     sum = a + b;  
-    printf("sum: %.2f\n", sum);  
+    printf("sum: %2f\n", sum);  
+    
+
+
+
+    float x = 5.9;
+    int y = (int)x;  // You manually cast float to int
+    printf("y is integer,\n %d",y);
     return 0;
-}
+
+
+
+} 
