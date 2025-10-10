@@ -1,10 +1,9 @@
 
-// stander code 
+// standard code 
 #include <stdio.h>
 
-int main() {
+void main() {
     printf("Hello, World!\n"); 
-    return 0; 
 
 
     int num;
@@ -14,7 +13,6 @@ int main() {
     scanf("%d", &num);              
 
     printf("You entered: %d\n", num);  
-
-    return 0;
+        
 }
 
