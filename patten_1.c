@@ -1,15 +1,9 @@
-#include<stdio.h>
+# include<stdio.h>
 int main(){
-    int i = 5;
-    
-    for(i;i>=1;i--){
-        int j;
-        for(j=1;j<=i;j++){
-            printf("*");
-        }
-        printf("\n");
-    }
-    return 0;    
+    int a[]={1,2,3};
+    int *pt=a;
+    printf("%d\n",*pt);
+    pt+=1;
+    printf("%d",*pt);
+
 }
-
-
