@@ -6,12 +6,8 @@ int fact(int n) {
     }else{
          return n * fact(n - 1);
     }
-}
-        
-    
-        
+}    
    
-
 int main() {
     int num;
     printf("Enter a number: ");
